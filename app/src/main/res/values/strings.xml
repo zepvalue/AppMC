@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AppMC</string>
+
+
+    <string name="title_section1">All</string>
+    <string name="title_section2">Done</string>
+    <string name="title_section3">Open</string>
+
+    <string name="search">Search</string>
+    <string name="failed">Failed to initialize Youtube Player</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_profile">Profile</string>
+    <string name="title_activity_user_profile">userProfile</string>
+    <string name="title_activity_challenge_user">ChallengeUser</string>
+    <string name="title_activity_upload_challenge">UploadChallenge</string>
+    <string name="title_activity_open_challenge">OpenChallenge</string>
+    <string name="title_activity_challenge_details">ChallengeDetails</string>
+    <string name="title_activity_done_challenge">DoneChallenge</string>
+    <string name="title_activity_progress_challenge">ProgressChallenge</string>
+    <string name="title_activity_challenge_request">ChallengeRequest</string>
+    <string name="title_activity_maps">Map</string>>
+</resources>

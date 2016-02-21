@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/video_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageButton
+            android:id="@+id/avatar"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="start|bottom"
+            android:src="@drawable/avatar"
+            android:onClick="challengeUser" />
+
+
+        <TextView
+            android:id="@+id/label12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:textSize="80px"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:textSize="70px"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="20dp"
+           />
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="70px"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="55dp"
+            android:layout_gravity="start" />
+
+      <ProgressBar
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          style="?android:attr/progressBarStyleHorizontal"
+          android:layout_marginLeft="200dp"
+          android:layout_marginTop="50dp"
+
+          android:max="100"
+          android:minHeight="500dp"
+          android:minWidth="150dp"
+          android:progress="100"/>
+
+
+
+    </FrameLayout>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent" >
+
+    <FrameLayout
+        android:id="@+id/video_frame2"
+        android:layout_width="fill_parent"
+        android:layout_height="200px" >
+
+        <VideoView
+            android:id="@+id/challenge"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="10dp" />
+
+        <ImageButton
+            android:id="@+id/avatar2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="start|bottom"
+            android:src="@drawable/avatar"
+            android:layout_marginBottom="10dp"
+            android:onClick="userProfile" />
+
+    </FrameLayout>
+
+</ScrollView>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Create challenge"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="30dp"
+            android:onClick="uploadChallenge"/>
+
+    </FrameLayout>
+
+</LinearLayout>
+

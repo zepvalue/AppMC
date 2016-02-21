@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/video_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="600px">
+
+        <VideoView
+            android:id="@+id/challenge"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp" />
+
+        <ImageButton
+            android:id="@+id/avatar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="start|bottom"
+            android:src="@drawable/avatar"
+            android:layout_marginBottom="10dp"
+            android:onClick="userProfile"/>
+
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@+id/label"
+            android:textSize="0px" />
+
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Results"
+            android:layout_gravity="top|right"
+            android:textSize="10dp"
+            android:onClick="doneChallenges" />
+
+
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>
